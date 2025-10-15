@@ -13,4 +13,5 @@ fn main() {
 	//Calculate Average
 	let avg:f64 = sum / qty;
 	println!("The Average of the following sales record is {}", avg);
+	
 }
