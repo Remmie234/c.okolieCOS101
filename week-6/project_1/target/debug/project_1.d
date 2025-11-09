@@ -1,0 +1,1 @@
+C:\Users\Administrator\Downloads\PAU\Introduction\ to\ Computer\ Science\ COS\ 101\c.okolieCOS101\week-6\project_1\target\debug\project_1.exe: C:\Users\Administrator\Downloads\PAU\Introduction\ to\ Computer\ Science\ COS\ 101\c.okolieCOS101\week-6\project_1\src\main.rs
