@@ -22,7 +22,7 @@ fn area_trapezium_formula()->f64 {
 
     //Checking Validity
     if h <= 0.0 || b1 <= 0.0 || b2 <= 0.0{
-        println!("Invalid value entered!😓 Therefore there is no area. And as such..");
+        println!("Invalid value entered!😓");
         return 0.0;
     }
 
@@ -46,7 +46,7 @@ fn area_rhombus_formula()->f64 {
 
     //Checking Validity
     if d1 <= 0.0 || d2 <= 0.0 {
-        println!("Invalid value entered!😓 Therefore there is no area. And as such..");
+        println!("Invalid value entered!😓");
         return 0.0;
     }
 
@@ -70,7 +70,7 @@ fn area_parallelogram_formula()->f64 {
 
     //Checking Validity
     if b <= 0.0 || a <= 0.0 {
-        println!("Invalid value entered!😓 Therefore there is no area. And as such..");
+        println!("Invalid value entered!😓");
         return 0.0;
     }
 
@@ -89,7 +89,7 @@ fn area_cube_formula()->f64 {
 
     //Checking Validity
     if l <= 0.0 {
-        println!("Invalid value entered!😓 Therefore there is no area. And as such..");
+        println!("Invalid value entered!😓");
         return 0.0;
     }
 
@@ -117,7 +117,7 @@ fn volume_cylinder_formula()->f64 {
 
     //Checking Validity
     if r <= 0.0 || he <= 0.0 {
-        println!("Invalid value entered!😓 Therefore there is no volume. And as such..");
+        println!("Invalid value entered!😓");
         return 0.0;
     }
 
@@ -154,20 +154,27 @@ fn main() {
     // Converting input to uppercase for consistency
     let equation_code = input.trim().to_uppercase();
 
+    let result:f64;
+
     //Invoking Equation function
     if equation_code == "A" {
-        println!("Dear {}, the area of the Trapezium is {} ✌🏼😁", customer, area_trapezium_formula());
+        result = area_trapezium_formula();
     } else if equation_code == "B" {
-        println!("Dear {}, the area of the Rhombus is {} ✌🏼😁", customer,area_rhombus_formula());
+        result = area_rhombus_formula();
     } else if equation_code == "C" {
-        println!("Dear {}, the area of the Parallelogram is {} ✌🏼😁", customer,area_parallelogram_formula());
+        result = area_parallelogram_formula();
     } else if equation_code == "D" {
-        println!("Dear {}, the area of the cube is {} ✌🏼😁", customer,area_cube_formula());
+        result = area_cube_formula();
     } else if equation_code == "E" {
-        println!("Dear {}, the volume of the Cylinder is {} ✌🏼😁", customer,volume_cylinder_formula());
+        result = volume_cylinder_formula();
     } else {
         println!("Invalid code entered!😓");
-        return
+        return;
     }
 
+    if result == 0.0 {
+        println!("Dear {}, the calculation failed due to invalid input😞", customer);
+    } else {
+        println!("Dear {}, the result is {} ✌🏼😁", customer, result);
+    }
 }
