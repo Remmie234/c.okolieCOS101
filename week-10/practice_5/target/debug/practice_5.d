@@ -1,0 +1,1 @@
+C:\Users\Administrator\Downloads\PAU\Introduction\ to\ Computer\ Science\ COS\ 101\c.okolieCOS101\week-10\practice_5\target\debug\practice_5.exe: C:\Users\Administrator\Downloads\PAU\Introduction\ to\ Computer\ Science\ COS\ 101\c.okolieCOS101\week-10\practice_5\src\main.rs
