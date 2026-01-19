@@ -12,7 +12,7 @@ fn connect_db() -> Client {
     ).expect("Failed to connect to database")
 }
 
-//Salutation
+//Salutations
 fn greetings(prompt: &str) -> String {
     let mut input = String::new();
     println!("{}", prompt);
