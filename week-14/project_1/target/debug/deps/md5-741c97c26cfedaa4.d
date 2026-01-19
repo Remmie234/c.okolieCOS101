@@ -1,0 +1,10 @@
+C:\Users\Administrator\Downloads\PAU\Introduction to Computer Science COS 101\c.okolieCOS101\week-14\project_1\target\debug\deps\md5-741c97c26cfedaa4.d: C:\Users\Administrator\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\md-5-0.10.6\src\lib.rs C:\Users\Administrator\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\md-5-0.10.6\src\compress.rs C:\Users\Administrator\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\md-5-0.10.6\src\consts.rs C:\Users\Administrator\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\md-5-0.10.6\src\compress\soft.rs
+
+C:\Users\Administrator\Downloads\PAU\Introduction to Computer Science COS 101\c.okolieCOS101\week-14\project_1\target\debug\deps\libmd5-741c97c26cfedaa4.rlib: C:\Users\Administrator\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\md-5-0.10.6\src\lib.rs C:\Users\Administrator\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\md-5-0.10.6\src\compress.rs C:\Users\Administrator\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\md-5-0.10.6\src\consts.rs C:\Users\Administrator\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\md-5-0.10.6\src\compress\soft.rs
+
+C:\Users\Administrator\Downloads\PAU\Introduction to Computer Science COS 101\c.okolieCOS101\week-14\project_1\target\debug\deps\libmd5-741c97c26cfedaa4.rmeta: C:\Users\Administrator\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\md-5-0.10.6\src\lib.rs C:\Users\Administrator\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\md-5-0.10.6\src\compress.rs C:\Users\Administrator\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\md-5-0.10.6\src\consts.rs C:\Users\Administrator\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\md-5-0.10.6\src\compress\soft.rs
+
+C:\Users\Administrator\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\md-5-0.10.6\src\lib.rs:
+C:\Users\Administrator\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\md-5-0.10.6\src\compress.rs:
+C:\Users\Administrator\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\md-5-0.10.6\src\consts.rs:
+C:\Users\Administrator\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\md-5-0.10.6\src\compress\soft.rs:
